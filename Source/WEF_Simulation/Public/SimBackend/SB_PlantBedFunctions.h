@@ -11,8 +11,7 @@
  * This class provides static, blueprint-callable functions to assist the SB_PlantBed actor component class.
  */
 UCLASS()
-class WEF_SIMULATION_API USB_PlantBedFunctions : public UBlueprintFunctionLibrary
-{
+class WEF_SIMULATION_API USB_PlantBedFunctions : public UBlueprintFunctionLibrary {
 	GENERATED_BODY()
 
 	/**
