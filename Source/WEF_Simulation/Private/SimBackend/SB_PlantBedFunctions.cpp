@@ -60,8 +60,7 @@ void USB_PlantBedFunctions::getGrowthAmount(
 			// using the appropriate ratio.
 			liquidConsumed = plantGrowthAmount * liquidPerPlant;
 		}
-	}
-	else {
+	} else {
 		// If there is either no more liquid to consume or no more height to grow,
 		// do not consume any liquid and do not grow the plants at all.
 		liquidConsumed = 0.0;
